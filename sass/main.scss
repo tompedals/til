@@ -1,0 +1,86 @@
+@charset 'utf-8';
+
+$body-background: #fff;
+$body-font-family: Lora, Helvetica, Arial, sans-serif;
+$header-font-family: Montserrat, Helvetica, Arial, sans-serif;
+
+@import 'foundation';
+@import 'libs/foundation';
+
+.header {
+    margin: 0 0 2rem;
+    border-bottom: 1px solid #eee;
+
+    h2 {
+        margin: 0;
+        padding: 1rem 0;
+        font-size: rem-calc(16);
+        font-family: $body-font-family;
+    }
+}
+
+.post-item {
+    &--php {
+        background-color: #8892BF;
+        color: #fff;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    a {
+        display: block;
+        width: 100%;
+        padding: 1rem 0;
+    }
+}
+
+.post {
+    &__header {
+        margin-bottom: 2rem;
+    }
+
+    &__title {
+        margin: 0;
+        text-align: center;
+        font-size: rem-calc(30);
+    }
+
+    &__time {
+        display: block;
+        text-align: center;
+    }
+
+    &__content {
+        font-size: rem-calc(18);
+
+        @include breakpoint(small down) {
+            font-size: rem-calc(16);
+        }
+    }
+}
+
+.post-list {
+    margin-top: 2rem;
+}
+
+.pagination-link {
+    position: fixed;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    line-height: 1;
+    border-radius: 100%;
+    bottom: 2rem;
+    color: #333;
+    font-family: $header-font-family;
+
+    &--prev {
+        left: 2rem;
+    }
+
+    &--next {
+        right: 2rem;
+    }
+}

@@ -1,0 +1,16 @@
+<div class="post">
+  <div class="row">
+    <div class="columns large-8 medium-10 medium-centered">
+      <div class="post__header">
+        <h1 class="post__title">
+          <a href="{{ site.baseurl }}{{ include.post.url }}">{{ include.post.title }}</a>
+        </h1>
+        <time class="post__time" datetime="{{ include.post.date|date: '%Y-%m-%d' }}">{{ include.post.date|date: "%B %e, %Y" }}</time>
+      </div>
+
+      <div class="post__content">
+        {{ include.content }}
+      </div>
+    </div>
+  </div>
+</div>

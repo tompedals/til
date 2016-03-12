@@ -1,8 +1,8 @@
 ---
-layout: post
 title: "Ansible has a PECL module"
 date: 2016-03-12 11:00:00 +0000
-categories: ansible
+category: Ansible
+layout: post
 ---
 With Ansible 2.0 it is possible to install PHP PECL extensions
 with an [extras module](http://docs.ansible.com/ansible/pear_module.html).

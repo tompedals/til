@@ -1,8 +1,32 @@
-title: Today I learned
+name: "Today I learned"
 description: ""
-baseurl: "/til"
+author: "Tom Graham"
+
 url: "http://tompedals.github.io"
-twitter_username: tompedals
-github_username: tompedals
+baseurl: "/til"
+
+twitter: tompedals
+github: tompedals
 
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: pretty
+highlighter: pygments
+
+paginate: 50
+paginate_path: "/page/:num"
+
+exclude:
+  - ".sass-cache"
+  - "node_module"
+  - "sass"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "Gruntfile.js"
+  - "package.json"
+
+gems:
+  - "jekyll-paginate"

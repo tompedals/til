@@ -1,0 +1,30 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ site.name }} - {{ site.description }}</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora|Montserrat:400,700" />
+    <link rel="stylesheet" href="{{ site.baseurl|split: '/'|join: '/'}}/css/main.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="row">
+        <div class="columns large-8 medium-10 medium-centered">
+          <h2>
+            <a href="{{ site.baseurl }}/">Today I learned</a>
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    {{ content }}
+
+    <div class="row">
+      <div class="columns large-8 medium-10 medium-centered">
+
+      </div>
+    </div>
+  </body>
+</html>
