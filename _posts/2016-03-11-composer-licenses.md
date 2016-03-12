@@ -4,7 +4,7 @@ date: 2016-03-12 22:37:00 +0000
 category: PHP
 layout: post
 ---
-Composer has a command to show the licenses used for all installed packages.
+Composer has a command to show the licenses for all installed packages.
 This is extremely useful to ensure compliance on commercial projects.
 
 ```
