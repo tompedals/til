@@ -1,0 +1,8 @@
+title: Today I learned
+description: ""
+baseurl: "/til"
+url: "http://tompedals.github.io"
+twitter_username: tompedals
+github_username: tompedals
+
+markdown: kramdown
