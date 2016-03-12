@@ -2,7 +2,7 @@
 type: post
 layout: base
 ---
-{% include post.html post=page content=content %}
+{% include post.html post=page content=content link=false %}
 
 {% if page.next %}
   <a class="pagination-link pagination-link--next" rel="next" href="{{ site.baseurl }}{{ page.next.url }}">

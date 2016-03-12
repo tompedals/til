@@ -3,7 +3,13 @@
     <div class="columns large-8 medium-10 medium-centered">
       <div class="post__header">
         <h1 class="post__title">
-          <a href="{{ site.baseurl }}{{ include.post.url }}">{{ include.post.title }}</a>
+          {% if include.link %}
+            <a href="{{ site.baseurl }}{{ include.post.url }}">
+          {% endif %}
+            {{ include.post.title }}
+          {% if include.link %}
+            </a>
+          {% endif %}
         </h1>
         <time class="post__time" datetime="{{ include.post.date|date: '%Y-%m-%d' }}">{{ include.post.date|date: "%B %e, %Y" }}</time>
       </div>

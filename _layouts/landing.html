@@ -4,7 +4,7 @@ layout: base
 ---
 {% if paginator.total_posts > 0 and paginator.page == 1 %}
   {% assign post = paginator.posts[0] %}
-  {% include post.html post=post content=post.content %}
+  {% include post.html post=post content=post.content link=true %}
 {% endif %}
 
 {% if paginator.total_posts > 1 %}
