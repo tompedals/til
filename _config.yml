@@ -14,7 +14,7 @@ kramdown:
   hard_wrap: false
 
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 
 paginate: 50
 paginate_path: "/page/:num"
