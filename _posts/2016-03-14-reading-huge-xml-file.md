@@ -24,7 +24,8 @@ class Importer
         // Read XML elements one at a time
         while ($reader->read()) {
             // Once we hit the element we want then load it into SimpleXML
-            if ($reader->nodeType === XMLReader::ELEMENT && $reader->name === 'abpr:BasicLandPropertyUnit') {
+            if ($reader->nodeType === XMLReader::ELEMENT &&
+                $reader->name === 'abpr:BasicLandPropertyUnit') {
                 $xml = new SimpleXMLElement($reader->readOuterXml());
                 $uprn = (string) $xml->xpath('abpr:uprn/text()')[0];
                 // Continue parsing ...
