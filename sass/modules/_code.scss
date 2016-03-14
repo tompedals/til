@@ -1,0 +1,16 @@
+.highlight {
+    margin: 0 0 1rem;
+
+    pre {
+        padding: 0.5rem;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: rem-calc(16);
+
+        & > code {
+            background: none;
+            border: 0;
+        }
+    }
+}

@@ -6,6 +6,8 @@ $header-font-family: Montserrat, Helvetica, Arial, sans-serif;
 
 @import 'foundation';
 @import 'libs/foundation';
+@import 'modules/code';
+@import 'modules/syntax';
 
 .header {
     margin: 0 0 2rem;
