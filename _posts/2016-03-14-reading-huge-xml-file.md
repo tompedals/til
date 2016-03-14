@@ -11,7 +11,7 @@ throw at `simplexml_load_file`.
 Instead I found a combination of [XMLReader](http://php.net/XMLReader) and [SimpleXML](http://php.net/SimpleXML) can be used to step through the XML file without
 having to load the entire file into memory.
 
-{% highlight php %}
+```php
 <?php
 
 class Importer
@@ -37,6 +37,6 @@ class Importer
 
 $importer = new Importer();
 $importer->import(__DIR__ . '/sx9090.gml');
-{% endhighlight %}
+```
 
 Memory use now stays low and huge XML files can be processed, although it will still take a while to get through 133GB.

@@ -1701,16 +1701,15 @@ kbd {
     vertical-align: bottom; }
 
 .highlight {
-  margin: 0 0 1rem; }
-  .highlight pre {
-    padding: 0.5rem;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1rem; }
-    .highlight pre > code {
-      background: none;
-      border: 0; }
+  margin: 0 0 1rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem; }
+  .highlight > code {
+    background: none;
+    border: 0; }
 
 .highlight {
   /* Comment */

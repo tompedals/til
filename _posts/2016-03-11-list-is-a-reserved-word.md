@@ -8,7 +8,7 @@ In the years I've worked with PHP I never paid attention to how many
 [reserved words](http://php.net/manual/en/reserved.keywords.php) there were.
 Today I learned that `list` is a reserved word and cannot be used as a method name.
 
-{% highlight php %}
+```php
 <?php
 
 class ReservedWords
@@ -17,7 +17,7 @@ class ReservedWords
     {
     }
 }
-{% endhighlight %}
+```
 
 This will result in the following syntax error:
 
