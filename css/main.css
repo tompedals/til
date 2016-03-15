@@ -1708,6 +1708,7 @@ kbd {
   border-radius: 4px;
   font-size: 1rem; }
   .highlight > code {
+    padding: 0;
     background: none;
     border: 0; }
 
