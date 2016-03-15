@@ -1,5 +1,5 @@
 ---
-title: "Doctrine ORM transforms property names to nicer column names"
+title: "Doctrine ORM column naming strategies"
 date: 2016-03-15 12:00:00 +0000
 category: PHP
 layout: post
