@@ -12,5 +12,4 @@ git clone --depth 1 https://github.com/symfony/symfony.git symfony
 ```
 
 On larger projects this will significantly speed up the cloning process and use less disk space.
-
 Very useful if you don't need the entire history!
