@@ -7,6 +7,7 @@ layout: post
 When cloning a repository it is possible to specify the depth. For example the following command
 will only clone the current HEAD of the repository. On larger projects this will significantly speed up
 the cloning process and use less disk space.
+
 ```
 git clone --depth 1 https://github.com/symfony/symfony.git symfony
 ```
