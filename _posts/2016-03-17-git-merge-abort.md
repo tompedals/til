@@ -1,5 +1,5 @@
 ---
-title: "About a merge in Git"
+title: "Abort a merge in Git"
 date: 2016-03-17 18:12:00 +0000
 category: Git
 layout: post
