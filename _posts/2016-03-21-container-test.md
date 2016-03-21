@@ -37,10 +37,18 @@ In this test each service is specified within a data provider, so relies on new 
 Another approach I have used is to check all services automatically.
 
 ```php
-public function testCreateServices()
+<?php
+
+class ContainerTest extends \PHPUnit_Framework_TestCase
 {
-    foreach ($this->getContainer()->getServiceIds() as $serviceId) {
-        $this->getContainer()->get($serviceId);
+
+    // ...
+
+    public function testCreateServices()
+    {
+        foreach ($this->getContainer()->getServiceIds() as $serviceId) {
+            $this->getContainer()->get($serviceId);
+        }
     }
 }
 ```
