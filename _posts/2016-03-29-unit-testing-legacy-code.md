@@ -54,7 +54,7 @@ class AccessTest extends PHPUnit_Framework_TestCase
             ->with('post')
             ->andReturn(true);
 
-        $this->accessManager->hasAccess('post', array('new', 'edit'));
+        $this->assertTrue($this->accessManager->hasAccess('post', array('new', 'edit')));
     }
 }
 ```
