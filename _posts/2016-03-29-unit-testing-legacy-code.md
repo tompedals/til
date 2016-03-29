@@ -1,6 +1,6 @@
 ---
 title: "Unit testing legacy code"
-date: 2016-03-29 21:32:00 +0000
+date: 2016-03-29 21:32:00 +0100
 category: Testing
 layout: post
 ---
@@ -8,9 +8,9 @@ One way to get out of the legacy code rut is to write tests and gradually refact
 for legacy code can be easier said than done. In a code base with lots of procedural code it's difficult to
 mock function calls. One way to do this is to use proxy methods.
 
-The function `queryAccess` queries the database and returns the permissions the user
-has for the given page. Ideally this data access logic would be in a class and
-passed in to `AccessManager` as a dependency so it could be mocked.
+In the example below the function `queryAccess` queries the database and returns the permissions the user
+has for the given page. Ideally this data access logic would be in a class and passed in to `AccessManager`
+as a dependency so it could be mocked during testing.
 
 ```php
 <?php
