@@ -37,7 +37,7 @@ added to the proxy method as this will not be executed by the tests.
 ```php
 <?php
 
-class AccessTest extends PHPUnit_Framework_TestCase
+class AccessManagerTest extends PHPUnit_Framework_TestCase
 {
     private $accessManager;
 
