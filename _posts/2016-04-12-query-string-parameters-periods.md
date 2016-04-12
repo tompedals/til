@@ -1,6 +1,6 @@
 ---
 title: "Query string parameters cannot contain periods"
-date: 2016-04-12 16:45:00 +0100
+date: 2016-04-12 15:45:00 +0100
 category: PHP
 layout: post
 ---
